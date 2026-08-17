@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { Logo } from "@/components/ui/Logo";
 import { company, footer, navigation } from "@/content/site";
@@ -48,15 +48,6 @@ export function Footer() {
                   className="text-ink-400 transition-colors hover:text-white"
                 >
                   {company.email}
-                </a>
-              </li>
-              <li className="flex items-start gap-2.5">
-                <Phone aria-hidden="true" className="mt-0.5 h-4 w-4 shrink-0 text-brand-400" />
-                <a
-                  href={`tel:${company.phoneHref}`}
-                  className="text-ink-400 transition-colors hover:text-white"
-                >
-                  {company.phone}
                 </a>
               </li>
               <li className="flex items-start gap-2.5">

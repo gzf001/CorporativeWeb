@@ -15,9 +15,6 @@ export const company = {
   legalName: "Build Bytes SpA",
   foundedYear: 2015,
   email: "contacto@buildbyte.cl",
-  phone: "+56 9 XXXX XXXX",
-  /** Formato E.164 para el enlace tel: */
-  phoneHref: "+569XXXXXXXX",
   address: "Santiago, Chile",
 } as const;
 

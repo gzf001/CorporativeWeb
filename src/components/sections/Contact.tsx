@@ -1,4 +1,4 @@
-import { Clock, Mail, MapPin, Phone } from "lucide-react";
+import { Clock, Mail, MapPin } from "lucide-react";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { Section, SectionHeading } from "@/components/ui/Section";
 import { company, contact } from "@/content/site";
@@ -26,18 +26,6 @@ export function Contact() {
                   className="text-sm text-ink-600 underline-offset-2 hover:text-brand-700 hover:underline"
                 >
                   {company.email}
-                </a>
-              </div>
-            </li>
-            <li className="flex items-start gap-3">
-              <Phone aria-hidden="true" className="mt-0.5 h-5 w-5 shrink-0 text-brand-600" />
-              <div>
-                <p className="text-sm font-medium text-ink-900">Teléfono</p>
-                <a
-                  href={`tel:${company.phoneHref}`}
-                  className="text-sm text-ink-600 underline-offset-2 hover:text-brand-700 hover:underline"
-                >
-                  {company.phone}
                 </a>
               </div>
             </li>

@@ -143,7 +143,6 @@ Casi todo el texto vive en `src/content/site.ts`: nombre de la empresa, rubro, d
 
 Pendientes antes de publicar:
 
-- `src/content/site.ts`: el teléfono (`+56 9 XXXX XXXX`) sigue siendo un valor de ejemplo.
 - `src/app/politica-de-privacidad/page.tsx` y `src/app/terminos/page.tsx`: textos legales de ejemplo.
 - `src/components/ui/HeroVisual.tsx`: ilustración del hero; puede reemplazarse por una imagen de marca.
 - `src/styles/globals.css`: paleta corporativa (`--color-brand-*`) y tipografía.
