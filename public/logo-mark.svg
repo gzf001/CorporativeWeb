@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Build Bytes">
+  <title>Build Bytes</title>
+  <defs>
+    <linearGradient id="bbGradMark" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2f6fed"/>
+      <stop offset="1" stop-color="#1e40af"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="12" fill="url(#bbGradMark)"/>
+  <g fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M15.5 12V36" stroke="#ffffff"/>
+    <path d="M15.5 12h7.5a6 6 0 0 1 0 12h-7.5" stroke="#ffffff"/>
+    <path d="M15.5 24h10.5a6 6 0 0 1 0 12h-10.5" stroke="#bfdbfe"/>
+  </g>
+</svg>
